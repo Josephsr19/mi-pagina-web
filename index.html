@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sobre Mí</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Hola ¡Soy Joseph!</h1>
+    <h2>Estudiante de Diseño Gráfico / Diseñador en formación</h2>
+  </header>
+
+  <main class="container">
+    <!-- Sección de presentación -->
+    <section id="presentacion">
+      <img src="mi-foto.png" alt="Foto de mi" class="foto" />
+      <p>
+        Me llamo Joseph Suárez. Soy estudiante de tecnólogo en diseño gráfico.
+        Me interesa el branding, el diseño editorial y el arte urbano. En esta
+        página encontrarás un poco sobre mí, mis pasatiempos y cómo contactarme.
+      </p>
+      <p>
+        Puedes encontrarme en:
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a> |
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
+
+    <!-- Listas -->
+    <section id="listas">
+      <h3>Pasatiempos</h3>
+      <ul>
+        <li>Diseño y experimentación tipográfica</li>
+        <li>Fotografía urbana</li>
+        <li>Escuchar y analizar música</li>
+      </ul>
+
+      <h3>Tareas pendientes</h3>
+      <ol>
+        <li>Entregar proyecto de tipografía</li>
+        <li>Actualizar portafolio online</li>
+        <li>Contactar a cliente potencial</li>
+      </ol>
+    </section>
+
+    <!-- Tabla de horarios -->
+    <section id="horario">
+      <h3>Horario semanal</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Actividad / Día</th>
+            <th>Lunes</th>
+            <th>Miérc.</th>
+            <th>Viernes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Entregar proyecto</th>
+            <td>—</td>
+            <td>Diseño final</td>
+            <td>Subir a Behance</td>
+          </tr>
+          <tr>
+            <th>Actualizar portafolio</th>
+            <td>Recolectar piezas</td>
+            <td>—</td>
+            <td>Editar fotos</td>
+          </tr>
+          <tr>
+            <th>Contactos</th>
+            <td>Buscar clientes</td>
+            <td>Enviar emails</td>
+            <td>Revisión</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+      <h3>Formulario de contacto</h3>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="tu@correo.com" required />
+
+        <label for="mensaje">¿Por qué deseas contactarme?</label>
+        <input type="text" id="mensaje" name="mensaje" placeholder="Escribe un breve motivo" />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Joseph Suárez — Página de práctica básica.</p>
+  </footer>
+</body>
+</html>
